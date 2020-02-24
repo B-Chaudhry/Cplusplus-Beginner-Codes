@@ -1,0 +1,33 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+double fact(int x)
+{
+int fact = 1;
+for (int i= 1; i<=x; i++)
+   fact *= i;
+   return fact;
+}
+int main() {
+	{
+		float taylor (float a, int n);
+		{
+		 
+		 int n;
+		for (int i=1; i<=n; i++);
+		}
+		float approx;
+		 float sum;
+		 float value = 0;
+		int i, a;
+		{sum = (pow(a,i) / fact(i) );
+		value += sum;
+		approx = 1 + value ;
+		return approx;
+		}
+	}
+	
+	return 0;
+}
