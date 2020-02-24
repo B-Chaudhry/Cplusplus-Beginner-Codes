@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std ;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+unsigned int fact (int n)
+{
+for (int i=n-1; i>0; i--)
+n*= i;
+return n;
+		
+}
+
+
+
+int main() {
+	int a, b , p, r, n;
+	cout<< "enter a number n:";
+	cin>>n;
+	cout<<"enter a number r:";
+	cin>>r;
+	a= fact(n);
+	b= fact(n-r);
+	p = a/b;
+	cout<< p;
+   
+	return 0;
+}
