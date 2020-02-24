@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+unsigned int fact (unsigned int a){
+	
+unsigned int x=1;
+for (int i = a; i>0; i--)
+x *= i;
+return x;
+}
+
+
+int main() {
+	int  p, q;
+	
+	cout<<"enter a positive number a ";
+	cin>> q;
+	p = fact(q);
+	cout<< p;
+	
+	
+	
+	
+	return 0;
+  }
